@@ -3,7 +3,7 @@ from telegram import Bot
 from paho.mqtt.client import Client as MQTTClient
 
 # MQTT настройки
-MQTT_BROKER = "172.20.10.2"
+MQTT_BROKER = "broker.emqx.io"
 MQTT_PORT = 1883
 MQTT_TOPIC = "sensors/temperature"
 
